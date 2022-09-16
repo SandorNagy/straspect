@@ -7,7 +7,7 @@
 #services #serviceTitle
 {
     width: 100%;
-    margin-top: 10%;
+    margin-top: 7%;
     font-weight: bold;
     text-align: center;
     position: absolute;
@@ -41,8 +41,9 @@
     margin: 0 !important;
     padding-right: 7.5% !important;
 }
-#services .secBox { width: 45%; }
+#services .secBox { width: 50%; }
 #services li { list-style-type: none; }
+#services .card-title { font-weight: 600; }
 
 @media only screen and (max-width: 600px)
 {
