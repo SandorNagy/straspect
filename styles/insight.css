@@ -1,12 +1,16 @@
 
-#insights { color: black; overflow: hidden; }
+#insights { color: black; overflow: hidden; height: 100%; padding-bottom: 40px;}
 #insights .carousel { height: 100%; }
-#insights .container { overflow: hidden; padding: 80px;}
+#insights .container { 
+    overflow: hidden; 
+    padding-bottom: 80px; 
+    padding-top: 20px;
+}
 
 #insights .post
 {
     display: inline-block;
-    max-width: 550px;
+    max-width: 625px;
     padding: 20px;
     margin: 10px;
 }
@@ -36,7 +40,7 @@
     vertical-align: center;
     justify-content: center;
 }
-#insights .userImg { width: 2vh; }
+#insights .userImg { height: 30px; }
 #insights .postUser { color: #2A3D5F; font-size: 0.5em !important;  }
 
 @media only screen and (max-width: 1400px)
