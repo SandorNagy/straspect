@@ -1,40 +1,16 @@
 
 #insights { color: black; overflow: hidden; }
 #insights .carousel { height: 100%; }
-#insights .container { overflow: hidden; }
+#insights .container { overflow: hidden; padding: 80px;}
 
-#insights #inTitle
-{
-    width: 100%;
-    margin-top: 7%;
-    font-weight: bold;
-    color: #2A3D5F;
-    text-align: center;
-    position: absolute;
-}
-
-#insights .carousel-inner
-{
-    height: 90%;
-    margin-top: 5% !important;
-}
-
-#insights .card
-{
-    margin: auto;
-    height: 35vh;
-    font-size: 150%;
-    overflow: hidden;
-    background-color: #d8d6d670;
-    border: 2.5px solid #00000020;
-}
 #insights .post
 {
-    display: flex;
-    flex-direction: column;
-    vertical-align: center;
-    justify-content: center;
+    display: inline-block;
+    max-width: 550px;
+    padding: 20px;
+    margin: 10px;
 }
+
 #insights .pAuth {  flex-direction: row; }
 
 #insights .pFooter
@@ -63,59 +39,26 @@
 #insights .userImg { width: 2vh; }
 #insights .postUser { color: #2A3D5F; font-size: 0.5em !important;  }
 
-@media only screen and (max-width: 600px)
+@media only screen and (max-width: 1400px)
 {
-    #insights #inTitle
+    #insights { height: 100%; }
+    #insights .post
     {
-        margin-top: 25%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px)
+{
+    #insights .container 
+    { 
+        padding-left: 60px;
+        padding-right: 60px;
     }
 
-    #insights .carousel-inner
+    #insights .post
     {
-        height: 100%;
-        margin-top: 0% !important;
+        padding-left: 0;
+        padding-right: 0;
     }
-    #insights .carousel-item
-    {
-        margin-top: 10%;
-    }
-    #insights .row
-    {
-        width: 75% !important;
-        height: 80% !important;
-    }
-    #insights .pFooter
-    {
-        display: flex;
-        margin-top: 0%;
-        font-size: 0.35em;
-        text-align: center;
-        flex-direction: column;
-    }
-    #insights h1 { margin-bottom: 30%; }
-
-    #insights .card
-    {
-        display: block;
-        margin-bottom: 0%;
-        width: 100% !important;
-        height: 225px !important;
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-    }
-    #insights .pAuth { margin-top: -7.5%; }
-
-    #carouselControls
-    {
-        margin-top: 97vh;
-        position: relative;
-    }
-    #insights .secondPost { display: none; }
-
-    #insights .pText
-    {
-        font-size: 0.35em !important;
-        margin-top: -25% !important;
-    }
-
 }
