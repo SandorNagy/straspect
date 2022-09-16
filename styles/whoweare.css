@@ -1,0 +1,65 @@
+#whoweare
+{
+    height: 75vh;
+    overflow: hidden;
+}
+
+#whoweare h1
+{
+    font-size: 5rem;
+    color: #1e225a;
+    font-weight: bold;
+}
+#whoweare h3
+{
+    color: #2A3D5F;
+    font-weight: bold;
+}
+#whoweare h5
+{
+    color: #2a3e5f98;
+    font-weight: lighter;
+}
+
+#whoweare .card-img-top
+{
+    width: 30vh;
+    height: 30vh;
+    background-size: cover;
+    border: 0.5vh solid white;
+    transition: border-color 350ms;
+    box-shadow: 0px 0vh 2.5vh 0.1vh #00000080;
+}
+
+#whoweare .card-group
+{
+    height: 100%;
+    border: none;
+    align-items: center;
+}
+
+#whoweare .card-body
+{
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+#whoweare .card { border: none; }
+#whoweare .card-body img { transition: transform 350ms; }
+#whoweare .card-body img:hover { transform: scale(1.15); }
+
+@media only screen and (max-width: 600px)
+{
+    #whoweare
+    {
+        height: 100vh;
+    }
+    #whoweare .card-img-top
+    {
+        width: 10vh;
+        height: 10vh;
+        margin-bottom: -1.5% !important;
+    }
+    #whoweare .card-title { font-size: 1rem; }
+    #whoweare .firstCard { margin-top: 2%; }
+}

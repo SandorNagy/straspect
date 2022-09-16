@@ -1,0 +1,36 @@
+#welcome
+{
+    overflow: hidden;
+    background-image: url('../images/welcome.png');
+}
+
+#welcome #welcomeText { overflow: scroll; }
+#welcome h1 { font-size: 2.5em; }
+
+#welcome .container
+{
+    top: 50%;
+    left: 25%;
+    width: 40%;
+    display: flex;
+    position: absolute;
+    text-align: justify;
+    flex-direction: column;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 600px)
+{
+    #welcome h1
+    {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    #welcome .container
+    {
+        left: 50%;
+        width: 90%;
+        padding-top: 10%;
+    }
+}

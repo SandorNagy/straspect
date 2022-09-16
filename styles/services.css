@@ -1,0 +1,69 @@
+#services
+{
+    overflow: hidden;
+    background-image: url('../images/gradient.jpg');
+}
+
+#services #serviceTitle
+{
+    width: 100%;
+    margin-top: 10%;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+}
+
+#services .card
+{
+    border: none;
+    margin-top: 7.5%;
+    text-align: center;
+    background-color: transparent;
+}
+#services .card-group
+{
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#services .card-body
+{
+    width: 75%;
+    margin: auto;
+    overflow: scroll;
+    max-height: 70vh !important;
+}
+#services ul
+{
+    text-align: center;
+    margin: 0 !important;
+    padding-right: 7.5% !important;
+}
+#services .secBox { width: 45%; }
+#services li { list-style-type: none; }
+
+@media only screen and (max-width: 600px)
+{
+    #services ul
+    {
+        width: 90% !important;
+        margin-left: 0 !important;
+        font-size: 0.75em !important;
+        padding-right: 0% !important;
+    }
+    #services .card-body { width: 100%; }
+
+    #services #serviceTitle
+    {
+        position: inherit;
+        margin-top: 25%;
+    }
+
+    #services .fsp { display: none; }
+    #services img { width: 10%; }
+    #services .card-title { font-size: 1.25em; }
+    #services .card-group { margin-top: 10%; height: 75%; }
+    #services .card2 { margin-top: -5% !important; }
+}

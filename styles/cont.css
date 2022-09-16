@@ -1,0 +1,73 @@
+#contact
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-image: url('../images/gradient.jpg');
+}
+#contact .textDsc { text-align: justify; }
+
+#contact .card-group
+{
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+
+    height: 100%;
+    overflow: hidden;
+    margin-top: 5% !important;
+}
+#contact .card-body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#contact .card
+{
+    border: none !important;
+    background-color: transparent !important;
+}
+#contact a img { transition: transform 350ms; }
+#contact a img:hover { transform: scale(1.25); }
+
+#contact #nameInputs input
+{
+    width: 45% !important;
+    display: inline-block;
+}
+
+#contact #lName, #contact #fName
+{
+    width: 45%;
+    padding: 1%;
+    padding-left: 0%;
+    border-radius: 10px;
+}
+#contact #lName { float: right; }
+
+#contact button
+{
+    float: left;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: white;
+}
+
+@media only screen and (max-width: 600px)
+{
+    #contact .card
+    {
+        width: 100%;
+        margin: 0 !important;
+    }
+    #contact .card-group
+    {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #contact .textDsc { font-size: 0.5em !important; }
+    #contact textarea { height: 10px !important; }
+}

@@ -1,0 +1,40 @@
+nav
+{
+    z-index: 5;
+    text-align: center;
+    background-color: #20202075;
+    transition: background-color 350ms, box-shadow 350ms;
+}
+nav .active { font-weight: 125%; }
+
+nav .nav-link:hover
+{
+    border-radius: 0px !important;
+    background-color: #ffffff15;
+    border-bottom: 2.5px solid white;
+}
+nav .nav-link.active
+{
+    background-color: #ffffff15;
+    border-bottom: 2.5px solid white;
+}
+nav .nav-link
+{
+    color: white !important;
+    border-top: 2.5px solid transparent;
+    border-bottom: 2.5px solid transparent;
+    transition: background-color 350ms, border-bottom 350ms, border-top 350ms;
+}
+
+nav .navbar-toggler:focus
+{
+    outline: none;
+    box-shadow: none;
+}
+
+nav .navbar-brand img
+{
+    width: 20vh;
+    transition: transform 350ms;
+}
+nav .navbar-brand img:hover { transform: scale(1.05); }
