@@ -1,6 +1,6 @@
 #whoweare
 {
-    overflow: hidden;
+    height: 100%;
 }
 
 #whoweare h1
@@ -9,11 +9,13 @@
     color: #1e225a;
     font-weight: bold;
 }
+
 #whoweare h3
 {
     color: #2A3D5F;
     font-weight: bold;
 }
+
 #whoweare h5
 {
     color: #2a3e5f98;
@@ -22,45 +24,26 @@
 
 #whoweare .card-img-top
 {
-    width: 30vh;
-    height: 30vh;
+    width: 240px;
+    height: 240px;
     background-size: cover;
-    border: 0.5vh solid white;
+    border: 5px solid white;
     transition: border-color 350ms;
     box-shadow: 0px 0vh 2.5vh 0.1vh #00000080;
 }
 
-#whoweare .card-group
-{
-    height: 100%;
-    border: none;
-    align-items: center;
-}
+#whoweare .members { height: 100vh; }
+#whoweare .member-detail { margin-top: 30px; }
+#whoweare .member { text-align: center; padding: 30px; }
+#whoweare img { transition: transform 350ms; }
+#whoweare img:hover { transform: scale(1.15); transition: transform 350ms; }
 
-#whoweare .card-body
+@media only screen and (max-width: 1200px)
 {
-    margin: auto;
-    text-align: center;
-    border-radius: 10px;
-}
-#whoweare .card { border: none; }
-#whoweare .card-body img { transition: transform 350ms; }
-#whoweare .card-body img:hover { transform: scale(1.15); }
-
-@media only screen and (max-width: 600px)
-{
+    #whoweare .members { height: 100%; }
     #whoweare
     {
-        height: 100%;
-        padding-top: 80px;
-        padding-bottom: 60px;
+        padding-top: 120px;
+        padding-bottom: 120px;
     }
-    #whoweare .card-img-top
-    {
-        width: 15vh;
-        height: 15vh;
-        margin-bottom: -1.5% !important;
-    }
-    #whoweare .card-title { font-size: 1.2rem; }
-    #whoweare .firstCard { margin-top: 20px; }
 }
