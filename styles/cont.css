@@ -17,12 +17,13 @@
     height: 100%;
     overflow: hidden;
     margin-top: 5% !important;
+    padding-top: 15vh;
 }
 #contact .card-body
 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
 }
 #contact .card
 {
@@ -67,7 +68,7 @@
     {
         flex-direction: column;
         justify-content: center;
+        padding-top: 0;
     }
-    #contact .textDsc { font-size: 0.5em !important; }
-    #contact textarea { height: 10px !important; }
+    #contact .textDsc { font-size: 0.7em !important; }
 }

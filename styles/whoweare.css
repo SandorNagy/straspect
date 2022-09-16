@@ -51,14 +51,16 @@
 {
     #whoweare
     {
-        height: 100vh;
+        height: 100%;
+        padding-top: 80px;
+        padding-bottom: 60px;
     }
     #whoweare .card-img-top
     {
-        width: 10vh;
-        height: 10vh;
+        width: 15vh;
+        height: 15vh;
         margin-bottom: -1.5% !important;
     }
-    #whoweare .card-title { font-size: 1rem; }
-    #whoweare .firstCard { margin-top: 2%; }
+    #whoweare .card-title { font-size: 1.2rem; }
+    #whoweare .firstCard { margin-top: 20px; }
 }
