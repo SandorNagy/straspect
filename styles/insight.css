@@ -39,6 +39,7 @@
 }
 
 #insights .postTitle { min-height: 48px; }
+#insights .postTitle a { text-decoration: none; color: black; }
 #insights .postImage img { width: 280px; height: 200px; float: right; margin-left: 10px; margin-top: 5px; object-fit: cover; }
 #insights .postContent { text-align: justify; min-height: 360px; }
 #insights .userImg { height: 30px; }
