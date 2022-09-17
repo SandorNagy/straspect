@@ -10,7 +10,7 @@ body
 section
 {
     height: 100vh;
-    overflow-y: scroll;
+    overflow: hidden;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,14 +20,6 @@ section
 {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-}
-
-#footer
-{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    background-color: #040811;
 }
 
 #return-to-top
