@@ -7,11 +7,10 @@
 {
     width: 100%;
     margin-top: 7%;
-    font-weight: bold;
     text-align: center;
 }
 
-#services .service-detail
+/* #services .service-detail
 {
     text-align: center;
     padding-top: 50px;
@@ -19,7 +18,7 @@
 
 #services ul { padding-right: 20px; }
 #services li { list-style-type: none; }
-#services .service-title { font-weight: 600; }
+#services .service-title { font-weight: 600; } */
 
 @media only screen and (max-width: 1200px)
 {
